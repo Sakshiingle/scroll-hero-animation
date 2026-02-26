@@ -130,7 +130,7 @@ export default function ScrollCarHero() {
           </div>
 
           {/* Bottom Row */}
-          <div id="box2" className="text-box opacity-0 scale-90 translate-y-0 absolute bottom-[8%] left-[40%] bg-[#6ac9ff] text-[#111] p-6 rounded-2xl flex flex-col z-20 shadow-xl min-w-62.5">
+          <div id="box2" className="text-box opacity-0 scale-90 translate-y-0 absolute bottom-[8%] left-[35%] bg-[#6ac9ff] text-[#111] p-6 rounded-2xl flex flex-col z-20 shadow-xl min-w-62.5">
             <span className="text-6xl font-bold leading-none">23%</span>
             <p className="text-sm mt-2 font-medium">Decreased in customer phone calls</p>
           </div>
