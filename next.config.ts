@@ -1,11 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',        // Tells Next.js to build a static site
+  output: 'export', 
   images: {
-    unoptimized: true,     // GitHub doesn't have the "magic" to resize images for you
+    unoptimized: true, 
   },
-  basePath: '/YOUR-REPO-NAME', // REPLACE THIS with your actual GitHub folder name
+  // ONLY the repository name, starting with a slash. 
+  // NO "github.com", NO "https://"
+  basePath: '/scroll-hero-animation', 
 };
 
 export default nextConfig;
