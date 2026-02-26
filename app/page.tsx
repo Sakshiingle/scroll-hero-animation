@@ -5,6 +5,7 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import carPic from "../public/car.png";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -107,7 +108,7 @@ export default function ScrollCarHero() {
             {/* Car */}
             <Image
               ref={carRef}
-              src="/car.png" 
+             src={carPic.src}
               alt="car"
               width={600}
               height={400}
